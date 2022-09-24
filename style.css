@@ -1,0 +1,97 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+  
+  
+    
+    }
+   .container{
+  width: 100vw;
+  height: 100vh;
+  
+   }
+   .sidebar{
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(83, 49, 49);
+  float: left;
+  
+   }
+   .map{
+  width:79% ;
+  height: 100vh;
+  float: left;
+   }
+#bölüm{
+width: 80%;
+height:25px;
+background-color:whitesmoke ;
+color: black;
+margin-left: 5px;
+
+}
+  
+ h5{
+  color: whitesmoke;
+  font-size:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  }
+  form{
+    width:auto;
+    height: auto;
+    border-radius: 2%;
+    overflow: hidden;
+    padding: 5px 5px ;
+  
+  }
+  #sıralama{
+  width: 80%;
+  height:25px;
+  background-color:whitesmoke ;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  #fname{
+   font-size:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  
+  }
+#sbmt{
+  
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.5px;
+  font-size:14px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: red;
+  background-color: rgb(187, 80, 80);
+  color: whitesmoke;
+
+  
+  }
+#sbmt:hover{
+  background-color:rgb(68, 114, 158);
+  color: rgb(187, 80, 80);
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 0.5px;
+  }
+  #p1{
+  color: rgb(197, 197, 197);
+  padding-left: 5px;
+  padding-top: 5px;
+  }
+  #bölümint{
+margin-top: -20px;
+  }
+#uni{  
+width:100%;
+
+  }
+  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankara Üniversitem ?</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+<link rel="stylesheet" href="./style.css">
+
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+crossorigin=""></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    
+<div class="sidebar"> 
+    <h5>Bölüm</h5>
+    <div class="input" id="bölümint">
+    <input list="bölümlerist" type="text" id="bölüm"  placeholder="Lütfen bölüm seçiniz" >
+    <datalist id="bölümlerist">
+
+      </datalist>
+
+
+
+      </div>
+  
+
+      <form class="form">
+        <label for="fname" id="fname"> Puanınız </label><br>
+        <input type="text" id="sıralama"  placeholder="Örnek:355.250"> <br>
+        <button type="button" id="sbmt" value="Submit"  onclick="filtrele()" >Ara</button>
+  
+      </form>
+<div> 
+   <p id="p1">  </p> </div> 
+
+   <div> <img id="uni" src="https://edtechreview.in/images/indian-college-search.jpg" alt="logo"></div>
+
+
+</div>
+
+
+<div class="map" id="map">  </div>
+
+
+</div>
+
+
+
+<script src="./aankara.JS" defer > </script>
+<script src="./veri.js"> </script>
+<script src="./programlar.js"> </script>
+<script src="./uniler.js"> </script>
+</body>
+</html>
