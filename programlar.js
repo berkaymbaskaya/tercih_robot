@@ -1428,4 +1428,3 @@ for (var i = 0; i < uni_program_sayisi; i++) {
   document.getElementById('bölümlerist').innerHTML = options;
 
 
-  module.export= {programlar};
