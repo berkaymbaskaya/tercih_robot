@@ -8,7 +8,7 @@ body{
    .container{
   width: 100vw;
   height: 100vh;
-  display: flex;
+  display: flex ;
 
 
    }
@@ -17,13 +17,9 @@ body{
   height: 100vh;
   background-color: rgb(83, 49, 49);
   z-index:2;
-  transition: 0.5s;
+  transition: 0.3s;
 float: left;
 position: relative;
-
-
-
-
    }
    .map{
 width: 100vw ;
@@ -101,15 +97,16 @@ margin-left: 5px;
   #bölümint{
 margin-top: -20px;
   }
-#uni{  
-width:100%;
-  }
+
 .sidebar .offbuton{
 position: absolute;
 top: 20 px;
 font-size: 35px;
 right: 10px;
-color: whitesmoke;}
+color: whitesmoke;
+text-decoration: none;
+
+}
 .onbutton{
 font-size: 30px;
 top: 20px;
@@ -119,6 +116,77 @@ cursor: pointer;
 z-index:10;
 visibility: hidden;
 transition: 0.1s;
+text-decoration: none;
 
 }
+#uni{  
+  width:100%;
+    }
   
+@media only screen and (max-device-width:768px) 
+{
+
+  .container{
+    width: 100vw;
+    height: 100vh;
+  display: flex;
+  
+     }
+  .sidebar{
+    width: 200%;
+    height: 30vh;
+    background-color: rgb(83, 49, 49);
+    z-index:5;
+    transition: 0.3s;
+  float: left;
+  position:fixed;
+  background: transparent;
+     }
+
+     .map{
+      width: 100vw ;
+      height: 100vh;
+      float: left;
+      transition: 0.5s;
+      position: relative;
+      z-index: 3;
+         }
+
+         #uni{  
+          width:0;
+            }
+h5{
+color: black;
+}
+#fname{
+color: black;
+font: bolder;
+}
+
+#bölümint{
+  width: 30%;
+    }
+
+  #sıralama{
+  width: 24%;
+
+  }
+  #sbmt{
+  
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: rgb(187, 80, 80);
+    color: whitesmoke;
+  
+    
+    }
+  #p1{
+  visibility: hidden;
+  }
+}
