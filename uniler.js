@@ -169,4 +169,3 @@
       "y": 32.79868576
     }
   ]
-  module.export= {Üniversiteler};
