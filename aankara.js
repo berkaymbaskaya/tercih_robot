@@ -52,8 +52,8 @@ map.eachLayer(function (layer) {
 var bölüm  = document.getElementById('bölüm').value;
 var sıralama = document.getElementById('sıralama').value;
 
-if ( sıralama <0 || sıralama > 500)
-{ alert("Lütfen geçerli bir puan giriniz (0-500) ");
+if ( sıralama <0 || sıralama > 575)
+{ alert("Lütfen geçerli bir puan giriniz (0-575) ");
 return false;}
 
 document.getElementById("p1").innerHTML = "Seçtiğiniz filtere uygun olarak yerleşebileceğiniz Üniversiteler Harita üzerinde işaretlenmiştir. Dilerseniz harita üzerinden sembole tıklayarak ilgili program hakkında daha detaylı alabilirsiniz.";
