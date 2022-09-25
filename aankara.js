@@ -39,6 +39,8 @@ var uni_icon = L.icon({
 
 // fltreleme FOnks
 function filtrele(){
+  // document.getElementById("sidebar").style.width="0";
+  // document.getElementById("onbutton").style.visibility="visible";
 
 var markerLayer = L.layerGroup();
 map.eachLayer(function (layer) {
