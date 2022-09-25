@@ -15436,4 +15436,3 @@ data={
     ],
     
     }
-    module.export= {data};
